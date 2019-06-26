@@ -1,0 +1,27 @@
+[user]
+	name = rdvelazquez
+	email = ryan.velazquez0001@temple.edu
+
+[alias]
+  co = checkout
+  br = branch
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  st = status -uno
+  stsu = status
+  d = difftool
+
+[diff]
+	tool = vimdiff
+
+[difftool]
+	prompt = false
+
+[github]
+    name = rdvelazquez
+    email = ryan.velazquez0001@temple.edu
+
+[core]
+	editor = /usr/bin/vim
+	autocrlf = false
+[http]
+	sslVerify = false
