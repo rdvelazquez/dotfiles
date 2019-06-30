@@ -717,4 +717,3 @@ else
     fi
 fi
 export VISUAL=/usr/bin/vim
-echo 'hello'
