@@ -215,6 +215,7 @@ alias lr='ls -lR'               # recursive ls
 alias lt='ls -ltr'              # sort by date
 alias lm='ls -al |more'         # pipe through 'more'
 alias tree='tree -Csu'		    # nice alternative to 'ls'
+alias android-studio="open -a /Applications/Android\ Studio.app/" # for react-native development
 
 
 #-------------------
@@ -717,3 +718,7 @@ else
     fi
 fi
 export VISUAL=/usr/bin/vim
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

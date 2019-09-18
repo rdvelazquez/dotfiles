@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin:$HOME/bin:/usr/X11R6/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin:$HOME/bin:/usr/X11R6/bin:$HOME/.gem/ruby/2.6.0/bin
 
 export BASH_ENV=$HOME/.bashrc
 export USERNAME=""
@@ -33,3 +33,8 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH

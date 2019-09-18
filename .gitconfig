@@ -1,6 +1,6 @@
 [user]
 	name = rdvelazquez
-	email = ryan.velazquez0001@temple.edu
+	email = ryan.velazquez@azimuth1.com
 
 [alias]
   co = checkout
@@ -18,7 +18,7 @@
 
 [github]
     name = rdvelazquez
-    email = ryan.velazquez0001@temple.edu
+    email = ryan.velazquez@azimuth1.com
 
 [core]
 	editor = /usr/bin/vim
