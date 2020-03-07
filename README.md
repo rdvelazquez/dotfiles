@@ -5,9 +5,8 @@
 Go to home directory:  
 `cd ~`
 
-Clone this repo and add a dot to the the directory name:  
-`git clone https://github.com/rdvelazquez/dotfiles`  
-`mv dotfiles .dotfiles`
+Clone this repo into the home directory as .dotfiles:  
+`git clone https://github.com/rdvelazquez/dotfiles .dotfiles`
 
 CD into the directory and run the install script:  
 `cd .dotfiles`  
@@ -24,4 +23,4 @@ _these next two commands are run from inside vim (any vim file)_
 `:so ~/.vimrc`   
 `:PluginInstall`
 
-If there are issues with sourcing .vimrc or running `:PluginInstall` you may want to try re-downloading and re-installing vundle (see the vundle github page for instructions)
+If there are issues with sourcing .vimrc or running `:PluginInstall` you may want to try re-downloading and re-installing vundle: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
