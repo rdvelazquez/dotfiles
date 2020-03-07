@@ -725,3 +725,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # append to python path for tensorflow model detection
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+# add rbenv shims to path
+export PATH="~/.rbenv/shims:$PATH"
