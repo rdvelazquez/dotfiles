@@ -728,3 +728,6 @@ export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 
 # add rbenv shims to path
 export PATH="~/.rbenv/shims:$PATH"
+
+# add JAVA_HOME to env
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
