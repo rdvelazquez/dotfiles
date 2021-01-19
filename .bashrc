@@ -216,6 +216,7 @@ alias lt='ls -ltr'              # sort by date
 alias lm='ls -al |more'         # pipe through 'more'
 alias tree='tree -Csu'		    # nice alternative to 'ls'
 alias android-studio="open -a /Applications/Android\ Studio.app/" # for react-native development
+alias remember="cat ~/.dotfiles/remember.txt" # Show a text file of things to remember (then grep for what you're looking for)
 
 
 #-------------------

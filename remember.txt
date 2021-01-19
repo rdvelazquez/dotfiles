@@ -1,0 +1,32 @@
+inux / Bash / general:
+
+Kill process on port: lsof -ti:<port> | xargs kill
+
+ssh tunnel: ssh -N -f -L localhost:<localPort>:localhost:<remoteport> <username@remoteHost>
+
+List conda environments: conda info —envs
+
+Create conda env from file: conda env create -f environment.yml
+
+Re-Mount a drive: sudo mount /dev/xvdb ~/data
+
+Mounting a drive from scratch: lsblk (to see your drives name… it’s `xvdb` in this case); sudo mkfs -t ext4 /dev/xvdb; mkdir /home/ubuntu/data; sudo mount /dev/xvdb /home/ubuntu/data; sudo chown -R ubuntu:ubuntu data; sudo chmod -R 755 data
+
+Check size of directory: du -sh <directory_name>
+
+How many files in a directory: ls -l | wc -l
+
+See memory usage on gpu: watch -d -n 0.5 nvidia-smi
+
+Grep showing line number (`-n`): grep -r -n “text to find” ./
+
+
+Python/ Jupyter Notebooks
+
+Set pandas to display all columns: pd.set_option('display.max_columns', None)
+
+Profile code in jupyter sorted by total time: %prun -s cumulative <code_to_be_profiled>
+
+use pep8 in jupyter notebooks: %load_ext pycodestyle_magic; %flake8_on
+
+Reload a module in jupyter: from importlib import reload: reload(<moduleName>)
