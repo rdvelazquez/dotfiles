@@ -8,6 +8,7 @@ export CVSROOT=":ext:pdekker@gist.offix:/src/master"
 export LYNX_CFG=$HOME/.lynx_config
 export RPMFTP=ftp://mirrors.kernel.org/redhat/redhat/linux/9/en/os/i386/RedHat/RPMS
 export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 source ~/.nvm/nvm.sh
 EDITOR=vim
 export EDITOR
@@ -44,15 +45,15 @@ export PATH
 # added by Anaconda3 2019.10 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/rdvelazquez/opt/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/ryanvelazquez/opt/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
 if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
-    if [ -f "/Users/rdvelazquez/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/rdvelazquez/opt/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/Users/ryanvelazquez/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/ryanvelazquez/opt/anaconda3/etc/profile.d/conda.sh"
         CONDA_CHANGEPS1=false conda activate base
     else
-        \export PATH="/Users/rdvelazquez/opt/anaconda3/bin:$PATH"
+        \export PATH="/Users/ryanvelazquez/opt/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup

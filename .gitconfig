@@ -25,3 +25,5 @@
 	autocrlf = false
 [http]
 	sslVerify = false
+[credential]
+	helper = osxkeychain

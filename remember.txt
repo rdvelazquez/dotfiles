@@ -20,6 +20,9 @@ See memory usage on gpu: watch -d -n 0.5 nvidia-smi
 
 Grep showing line number (`-n`): grep -r -n “text to find” ./
 
+Show the size of all directories in order of size: du -sk * | sort -n
+
+Show the size of all directories in human redable size: du -sh *
 
 Python/ Jupyter Notebooks
 
