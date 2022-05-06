@@ -33,3 +33,5 @@ Profile code in jupyter sorted by total time: %prun -s cumulative <code_to_be_pr
 use pep8 in jupyter notebooks: %load_ext pycodestyle_magic; %flake8_on
 
 Reload a module in jupyter: from importlib import reload: reload(<moduleName>)
+
+Install package from jupyter notebook: !conda install --yes --prefix {sys.prefix} <packageName>
