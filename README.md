@@ -1,12 +1,15 @@
 # dotfiles  
 
-### To Install and Use
-
-Go to home directory:  
-`cd ~`
-
+## For Quick Start with Modern Data Stack:
 Clone this repo into the home directory as .dotfiles:  
-`git clone https://github.com/rdvelazquez/dotfiles .dotfiles`
+`git clone https://github.com/rdvelazquez/dotfiles ~/.dotfiles`
+
+CD into the directory and run the startup script:  
+`bash startup.zsh`
+
+## For General Dev:
+Clone this repo into the home directory as .dotfiles:  
+`git clone https://github.com/rdvelazquez/dotfiles ~/.dotfiles`
 
 CD into the directory and run the install script:  
 `cd .dotfiles`  
