@@ -39,9 +39,8 @@ export EDITOR="code --wait"
 echo "VS Code successfully installed"
 
 echo "Installing anaconda.."
-curl -O https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.sh
-bash Anaconda3-2021.05-MacOSX-x86_64.sh -u -b -f
-rm Anaconda3-2021.05-MacOSX-x86_64.sh
+brew insatll --cask anaconda
+export PATH="/usr/local/anaconda3/bin:$PATH"
 echo "anaconda installed succesfully"
 
 cd ~/Downloads
