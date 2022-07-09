@@ -1,13 +1,11 @@
 [user]
 	name = rdvelazquez
-	email = ryan.velazquez@azimuth1.com
+	email = ryan.velazquez@newfront.com
 
 [alias]
   co = checkout
-  br = branch
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
-  st = status -uno
-  stsu = status
+  s = status
   d = difftool
   gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
 
@@ -19,7 +17,7 @@
 
 [github]
     name = rdvelazquez
-    email = ryan.velazquez@azimuth1.com
+    email = ryan.velazquez@newfront.com
 
 [core]
 	editor = /usr/bin/vim
