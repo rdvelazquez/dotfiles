@@ -1,0 +1,19 @@
+{
+	"Ref": {
+		"scope": "sql",
+		"prefix": "ref",
+		"body": [
+			"{{ ref('${1:model_name}') }}"
+		],
+		"description": "Ref"
+	},
+	"Source": {
+		"scope": "sql",
+		"prefix": "source",
+		"body": [
+			"{{ source('${1:source}', '${2:table_name}') }}"
+		],
+		"description": "Source"
+	}
+}
+
